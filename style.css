@@ -1,0 +1,41 @@
+
+body {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-family: 'Arial';
+}
+form {
+    text-align: center;
+}
+
+form .inputs , .input-bt {
+    margin: 8px;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+
+}
+form :placeholder-shown {
+    text-align: center;
+}
+
+
+form .input-bt:hover {
+    background-color: green;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+
+
+h3 {
+    color: rgb(39, 203, 56);
+}
+h4 {
+    color: yellow;
+}
+h5 {
+    color: red;
+}
